@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    background-color: palevioletred;
+    color: black;
+    text-align: center;
+    font-size:xx-large;
+}
+.button-section{
+    text-align: center;
+    margin-top: 4rem; 
+    display:flex;
+    gap: 2rem;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 1rem;       
+}
+.red{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100px;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: medium;
+    
+}
+.black{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100px;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: medium;
+}
+.yellow{
+    background-color:yellow;
+    color:black;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100px;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: medium;
+}
+.green{
+    background-color:green;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100px;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: medium;
+}
+.purple{
+    background-color:purple;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100px;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: medium;
+}
+.red:hover{
+    background-color:#FF474D;
+    color: white;
+}
+.black:hover{
+    background-color:lightgray;
+    color:black;
+}
+.yellow:hover{
+    background-color:#BDB76B;
+    color:black;
+}
+.green:hover{
+    background-color:#9ACD32;
+    color:black;
+}
+.purple:hover{
+    background-color:#B19CD9;
+    color:black;
+}
+.clear{
+    height: 50px;
+    width: 90px;
+    text-align: center;
+    background-color: #9ACD32;
+    color: black;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: auto;
+    font-size: medium;
+   
+}
+.clear:hover{
+    color: black;
+    background-color: lightgreen;
+}
